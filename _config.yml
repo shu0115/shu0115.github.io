@@ -71,3 +71,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+
+paginate: 3
