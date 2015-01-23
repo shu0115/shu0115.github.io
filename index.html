@@ -9,8 +9,10 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
+        {{ page.date | date: "%Y, %m, %d" }}
         <!--{{ post.content | truncatewords:40}}-->
         {{ post.content }}
+        {{ page.date | date: "%Y, %m, %d" }}
       </div>
       
       <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
